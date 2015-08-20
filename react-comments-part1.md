@@ -113,7 +113,7 @@ Because there has not been data added to the table, the output will be “Empty 
 (Additionally) 
 Although it is not required for this tutorial (we will be using falcon to add information), you can add data to the table with the following command:
 ```
-INSERT INTO `comments_table` (`comment`,`name`) VALUES ("Hello!", "FalconLover");
+INSERT INTO comments_table (comment,name) VALUES ("Hello!", "FalconLover");
 ```
 Read more about MySQL [here](https://www.digitalocean.com/community/tutorials/a-basic-mysql-tutorial)
 Or [here](http://dev.mysql.com/doc/)
